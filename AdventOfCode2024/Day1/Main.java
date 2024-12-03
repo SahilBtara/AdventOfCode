@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        String file = "Day1/input1.txt";
+        String file = "AdventOfCode2024/Day1/input1.txt";
         List<Integer> list1 = new ArrayList<>();
         List<Integer> list2 = new ArrayList<>();
         try(BufferedReader reader = new BufferedReader(new FileReader(file))){  

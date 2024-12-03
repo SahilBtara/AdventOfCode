@@ -5,7 +5,7 @@ import java.io.FileReader;
 
 public class One {
     public static void main(String[] args) {
-        String path = "Day2/input.txt";
+        String path = "AdventOfCode2024/Day2/input.txt";
         try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
             String line;
             int ans = 0;

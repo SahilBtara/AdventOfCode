@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class Main2 {
     public static void main(String[] args) {
-        String path = "Day1/input1.txt";
+        String path = "AdventOfCode2024/Day1/input1.txt";
         ArrayList<Integer> list1 = new ArrayList<>();
         HashMap<Integer, Integer> list2 = new HashMap<>();
         try(BufferedReader reader = new BufferedReader(new FileReader(path))) {
